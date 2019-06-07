@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 import torch.optim as optim
-import requests
 from torchvision import transforms, models
 
 # get features from pre-trained model (VGG19) - No need for the dense layers
